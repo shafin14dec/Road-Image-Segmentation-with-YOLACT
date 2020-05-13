@@ -15,6 +15,7 @@ Then they analyze the emergent behavior of their prototypes and show they learn 
 
 ## Dataset
 In their research paper, they used COCO dataset for training and testing. I couldn’t train their model with my own dataset because this couldn’t train on Google Colab. Colab times out and resets if I leave it training too long. So I test with my own dataset(collected from Google) with their pre-trained model.
+### Imput Images
 ![](input_images/y1.jpg)
 ![](input_images/y2.jpg)
 ![](input_images/y3.jpg)
@@ -24,10 +25,11 @@ In their research paper, they used COCO dataset for training and testing. I coul
 ![](input_images/y7.jpg)
 ![](input_images/y8.jpg)
 ![](input_images/y9.jpg)
-![Input images](input_images/y10.jpg)
+![](input_images/y10.jpg)
 
 ## Methodology
-While working on this project, I was inspired from Adam Kelly who made a Google Colab notebook for YOLACT++[3]. First I did the runtime setup in the Google Colab. Then I install some Python libraries. Google Colab probably has these requirements already, but better to include them than to break later. After that I Clone YOLACT repository of Daniel Bolya from GitHub[2]. The DCNv2 external library is needed for this to work, so I built it then. In order to run inference, I needed some pre-trained weights(ResNet 50). The creator of the GitHub repo shared them on Google Drive. I used a helpful tool made by chentinghao to easily access the Drive file from Colab[4]. Then I tested it with my dataset and show the output of the images. All codes are uploaded in my GitHub repository.
+While working on this project, I was inspired from Adam Kelly who made a Google Colab notebook for YOLACT++[3]. First I did the runtime setup in the Google Colab. Then I install some Python libraries. Google Colab probably has these requirements already, but better to include them than to break later. After that I Clone YOLACT repository of Daniel Bolya from GitHub[2]. The DCNv2 external library is needed for this to work, so I built it then. In order to run inference, I needed some pre-trained weights(ResNet 50). The creator of the GitHub repo shared them on Google Drive. I used a helpful tool made by chentinghao to easily access the Drive file from Colab[4]. Then I tested it with my dataset and show the output of the images.
+### Output Images
 ![](output_images/y1.png)
 ![](output_images/y2.png)
 ![](output_images/y3.png)
@@ -37,7 +39,7 @@ While working on this project, I was inspired from Adam Kelly who made a Google 
 ![](output_images/y7.png)
 ![](output_images/y8.png)
 ![](output_images/y9.png)
-![Output images](output_images/y10.png)
+![](output_images/y10.png)
 
 ## Results and discussion
 The results are quite good. It was fast too. I can also play with the threshold value to segment the images. But, there are some false segmentation also as I could not trained it with my own weights to detect images of roads from Bangladesh. On the other hand, in their build in model, they can only segment 80 different category. So, their pre-trained model just segmented people, cars, buses, trucks etc. but not the roads.
