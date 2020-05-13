@@ -48,7 +48,7 @@ The results are quite good. It was fast too. I can also play with the threshold 
 Road image segmentation is a very important topic in many cases. It can be used in autonomous driving. YOLACT++can plays an important role there. It is fast and efficient for instant segmentation. Not only image segmentation, it perfoms good result for video object segmentation also. I will definitely look more details of it. 
 
 ## References
-* [1] ![YOLACT++: Better Real-time Instance Segmentation](https://arxiv.org/abs/1912.06218)
-* [2] ![GitHub repo of dbolya](https://github.com/dbolya/yolact)
-* [3] ![Adam Kelly Google Colab Notebook](https://colab.research.google.com/drive/1ncRxvmNR-iTtQCscj2UFSGV8ZQX_LN0M#scrollTo=YWzKi-xiGX-i)
-* [4] ![GitHub repo of chentinghao](https://github.com/chentinghao )
+* [1] [YOLACT++: Better Real-time Instance Segmentation](https://arxiv.org/abs/1912.06218)
+* [2] [GitHub repo of dbolya](https://github.com/dbolya/yolact)
+* [3] [Adam Kelly Google Colab Notebook](https://colab.research.google.com/drive/1ncRxvmNR-iTtQCscj2UFSGV8ZQX_LN0M#scrollTo=YWzKi-xiGX-i)
+* [4] [GitHub repo of chentinghao](https://github.com/chentinghao )
